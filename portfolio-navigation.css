@@ -1,0 +1,24 @@
+.portfolio-rail,.portfolio-mobile{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.45;color:#173044;box-sizing:border-box}
+.portfolio-rail{display:none}
+.portfolio-mobile{background:#fff;border-bottom:1px solid #d8e2e6;padding:14px 20px;position:relative;z-index:20}
+.portfolio-mobile>summary{display:flex;align-items:center;justify-content:space-between;gap:16px;cursor:pointer;font-size:14px;font-weight:650;list-style:none}
+.portfolio-mobile>summary::-webkit-details-marker{display:none}
+.portfolio-mobile>summary::after{content:"＋";font-size:20px;color:#097b7e;font-weight:400}
+.portfolio-mobile[open]>summary::after{content:"−"}
+.portfolio-mobile-identity{font-size:15px;line-height:1.4}.portfolio-mobile-identity small{display:block;font-size:12px;color:#647985;font-weight:500;margin-top:2px}
+.portfolio-mobile .portfolio-nav{margin-top:14px}
+nav.portfolio-nav{display:flex;flex-direction:column;gap:5px;background:transparent;border:0;padding:0;min-height:0}
+nav.portfolio-nav a{display:flex;align-items:center;gap:10px;margin:0;padding:11px 12px;border:1px solid transparent;border-radius:7px;color:#4b6170;text-decoration:none;font-size:14px;line-height:1.4;font-weight:500;letter-spacing:0}
+nav.portfolio-nav a:hover{background:#f0f5f5;color:#132e40}
+nav.portfolio-nav a[aria-current="page"]{background:#e5f1ef;border-color:#c8dfda;color:#096b68;font-weight:700}
+.portfolio-nav-dot{width:6px;height:6px;border-radius:50%;background:currentColor;flex:0 0 6px;opacity:.5}
+nav.portfolio-nav a[aria-current="page"] .portfolio-nav-dot{opacity:1}
+.portfolio-brand{display:block;font-size:18px;font-weight:750;line-height:1.3;color:#132e40;text-decoration:none}
+.portfolio-role{display:block;color:#647985;font-size:13px;margin-top:5px}
+.portfolio-nav-label{margin:35px 0 12px;font-size:11px;letter-spacing:1.3px;text-transform:uppercase;color:#647985;font-weight:700}
+.portfolio-rail-note{margin:22px 12px 0;font-size:12px;color:#647985}
+.portfolio-skip{position:absolute;left:16px;top:-100px;z-index:1000;background:white;color:#132e40;padding:12px;border:2px solid #097b7e}
+.portfolio-skip:focus{top:12px}
+.portfolio-rail a:focus-visible,.portfolio-mobile a:focus-visible,.portfolio-mobile summary:focus-visible{outline:3px solid #097b7e;outline-offset:3px}
+@media(min-width:1280px){body.portfolio-has-nav{padding-left:216px}.portfolio-rail{display:block;position:fixed;inset:0 auto 0 0;width:216px;padding:32px 17px;background:#fff;border-right:1px solid #d8e2e6;overflow:auto;z-index:30}.portfolio-mobile{display:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
