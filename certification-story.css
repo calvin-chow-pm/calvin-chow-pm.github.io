@@ -1,0 +1,9 @@
+.certification-story .certification-story-grid{display:grid;grid-template-columns:minmax(0,1fr) 18px minmax(0,1fr) 18px minmax(0,1fr);gap:14px;margin-top:22px;align-items:stretch}
+.certification-story .certification-story-card{display:flex;flex-direction:column;min-width:0;background:#fff;border:1px solid #d8e2e6;border-radius:12px;padding:22px 20px}
+.certification-story .certification-story-kicker{color:#132e40;font-size:11px;line-height:1.5;text-transform:uppercase;letter-spacing:1.3px;font-weight:750;margin:0 0 16px}
+.certification-story .certification-story-card h3{font-size:18px;line-height:1.35;letter-spacing:-.3px;margin:0 0 14px;color:#132e40}
+.certification-story .certification-story-card p:not(.certification-story-kicker){font-size:14px;line-height:1.6;color:#647985;margin:0}
+.certification-story .certification-story-link{display:inline-block;align-self:flex-start;color:#132e40;font-size:13px;line-height:1.5;font-weight:700;margin-top:20px;text-underline-offset:4px}
+.certification-story .certification-story-link:focus-visible{outline:3px solid #097b7e;outline-offset:4px}
+.certification-story .certification-story-arrow{align-self:center;justify-self:center;color:#4b6170;font-size:25px;line-height:1}
+@media(max-width:900px){.certification-story .certification-story-grid{grid-template-columns:minmax(0,1fr);gap:12px}.certification-story .certification-story-arrow{transform:rotate(90deg)}.certification-story .certification-story-card{padding:20px}.certification-story .certification-story-kicker{margin-bottom:10px}}
